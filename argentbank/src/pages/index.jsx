@@ -1,9 +1,20 @@
-import React from 'react';
+import Banner from '../containers/Banner'
+import Features from '../containers/Features'
+import Header from '../containers/Header'
+import Footer from '../containers/Footer'
+
 
 function Index() {
   return (
-    <p>Hello Wold</p>
+    <>
+      <Header />
+      <main>
+        <Banner />
+        <Features />
+      </main>
+      <Footer />
+    </>
   );
 }
-
-export default Index;
+  
+export default Index
